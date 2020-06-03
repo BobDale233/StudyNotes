@@ -76,11 +76,11 @@ CPU: Central Processing Unit
  13. Heap: The relationship between each both parent and children must be same. In Max Heap, the max node is Root Node. 
  14. Red-Black Tree: A type of self-balancing search tree.
 ![](Red-black_tree_example.png)
-   1. A node is either red or black.
-   2. The root is black. (This rule is sometimes omitted. Since the root can always be changed from red to black, but not necessarily vice-versa, this rule has little effect on analysis.)
-   3. All leaves (NIL) are black. (All leaves are same color as the root.)
-   4. Every red node must have two black child nodes.
-   5. Every path from a given node to any of its descendant leaves contains the same number of black nodes.
+   - A node is either red or black.
+   - The root is black. (This rule is sometimes omitted. Since the root can always be changed from red to black, but not necessarily vice-versa, this rule has little effect on analysis.)
+   - All leaves (NIL) are black. (All leaves are same color as the root.)
+   - Every red node must have two black child nodes.
+   - Every path from a given node to any of its descendant leaves contains the same number of black nodes.
 
 
  
